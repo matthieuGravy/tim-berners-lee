@@ -17,6 +17,7 @@ header {
   background-color: orange;
 }
 .topbar {
+  padding: 0 2%;
   background-color: #071c2e;
   display: grid;
   grid: "hamburger loupe logo login subscribe" 6vh / auto auto auto auto auto;
@@ -40,6 +41,7 @@ header {
 .logo img {
   width: auto;
   max-height: 2.1vh;
+  padding-left: 1.3rem;
 }
 .login {
   background-color: blue;
@@ -47,6 +49,10 @@ header {
   grid-area: login;
   display: flex;
   flex-direction: row;
+}
+.login-logo {
+  height: 2vh;
+  margin: auto;
 }
 .login i {
   display: none;
@@ -60,10 +66,13 @@ header {
 .subscribe a {
   text-decoration: none;
   color: #ffffff;
-  padding: 0.2em 0.3px;
+  padding: 0.33em 0.33em;
   background-color: #963100;
   border-radius: 5px;
   border: solid #1f0a01 1px;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: -0em;
 }
 header + legend-liens {
   padding: 0;
