@@ -1,3 +1,29 @@
-h1 {
-  color: red;
+nav {
+  background-color: whitesmoke;
+  display: grid;
+  grid: "hamburger loupe logo login subscribe" 10vh / 1fr;
+  max-width: 100%;
+}
+.hamburger {
+  grid-area: hamburger;
+  background-color: red;
+}
+.loupe {
+  grid-area: loupe;
+  background-color: green;
+}
+.logo {
+  background-color: blue;
+  grid-area: logo;
+}
+.login {
+  background-color: aliceblue;
+  grid-area: login;
+}
+.pages {
+  display: none;
+}
+body {
+  display: grid;
+  max-width: 100%;
 }

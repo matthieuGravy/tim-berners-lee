@@ -5,27 +5,117 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-    <nav aria-label="...">
-      <ul class="pagination pagination-lg">
-        <li class="page-item active" aria-current="page">
-          <span class="page-link">1</span>
-        </li>
-        <li class="page-item"><a class="page-link event-2" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-      </ul>
-    </nav>
-    <div class="page-1">
-      <h1>page1</h1>
-    </div>
-    <div class="page-2">
-      <h1>page2</h1>
-    </div>
-    <div class="page-3">
-      <h1>page3</h1>
-    </div>
+    <header>
+      <div id="app"></div>
+      <script type="module" src="/main.js"></script>
+      <nav aria-label="...">
+        <figure class="logo">
+          <img src="" alt="britanica" />
+        </figure>
+        <button class="hamburger">
+          <img src="" alt="hamburger" />
+        </button>
+        <button class="loupe">
+          <a href="">
+            <img src="" alt="loupe" class="" />
+          </a>
+          <a href="">Search</a>
+        </button>
+        <ul class="pages">
+          <li>
+            <span class="">Dictionary</span>
+          </li>
+          <li class="">
+            <a class="" href="#">Quizzies</a>
+          </li>
+          <li class=""><a class="page-link" href="#">Money</a></li>
+        </ul>
+        <button>
+          <a href="">subscribe</a>
+        </button>
+        <ul class="login">
+          <a>login</a>
+          <figure><img src="liste V" alt="" /></figure>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Science</a></li>
+          <li><a href="">Mathematics</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <header>
+        <h2 class="rubrique"></h2>
+        <h1>Tim Berners-Lee</h1>
+        <h2>British scientist</h2>
+        <figure>
+          <blockquote>
+            <p>Also know as: Sir Tim Berners-Lee</p>
+          </blockquote>
+          <figcaption>
+            Written by <cite><a href="#">Michael Aaron Dennis</a></cite>
+            <br />
+            Fact-checked by
+            <a href="#">The editors of Encyclopedia Britannica</a>
+            <br />
+            Last Updated: <a href="#">Article History</a>
+          </figcaption>
+        </figure>
+      </header>
+      <nav>
+        <ul>
+          <h3>
+            <figure><img src="" alt="menu Puce" /></figure>
+            Table fo Contents
+          </h3>
+        </ul>
+      </nav>
+      <section>
+        <audio controls>
+          <source src="horse.ogg" type="audio/ogg" />
+          <source src="horse.mp3" type="audio/mpeg" />
+        </audio>
+      </section>
+      <section>
+        <article>
+          <figure>
+            <img src="" alt="Tim Berners-Lee" />
+          </figure>
+          <figcaption>Tim Berners-Lee</figcaption>
+        </article>
+        <a href="">See all media</a>
+        <article>
+          <hr />
+          <ul>
+            <li>
+              <strong>Category:</strong>
+              <h2 class="rubrique"></h2>
+            </li>
+            <li><strong>In Full:</strong> Sir Tim Berners-lee</li>
+            <li>
+              <strong>Born: </strong> June 8, 1955, <a href="">London</a>,
+              <a href="">England</a> (age 68)
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
