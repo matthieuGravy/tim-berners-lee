@@ -14,7 +14,6 @@ classes
 
 /* xs */
 header {
-  background-color: orange;
 }
 .topbar {
   padding: 0 2%;
@@ -44,7 +43,6 @@ header {
   padding-left: 1.3rem;
 }
 .login {
-  background-color: blue;
   place-self: center;
   grid-area: login;
   display: flex;
@@ -80,18 +78,18 @@ header + legend-liens {
 }
 .legend-liens ul {
   margin: 0;
-  display: flex;
   padding: 0;
-  max-width: 35%;
-  justify-content: space-around;
-  list-style-type: none;
-  background-color: hotpink;
-  align-items: center;
 }
 .legend-liens ul li,
 p,
 a {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  display: inline;
+  text-decoration: none;
+  color: #797979;
+}
+.legend-liens-a :hover {
+  color: red;
 }
 
 main {
