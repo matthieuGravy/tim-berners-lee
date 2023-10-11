@@ -1,2 +1,3 @@
-import "./normalize.css";
-import "./style.css";
+import "./css/normalize.css";
+import "./css/topbar.css";
+import "./css/style.css";

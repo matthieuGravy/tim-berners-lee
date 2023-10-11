@@ -1,0 +1,67 @@
+/*
+icones 
+++++++++*/
+.top-logo {
+  height: 24px;
+  width: 24px;
+}
+
+/* xs */
+/*nav topbar */
+.topbar {
+  background-color: var(--color-bg-top);
+  display: grid;
+  grid: "top-left top-center top-right" 6vh / auto auto auto;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+.topbar:nth-child(1) {
+  grid-area: top-left;
+  display: grid;
+}
+.topbar:nth-child(2) {
+  grid-area: top-center;
+}
+.topbar:nth-child(3) {
+  grid-area: top-right;
+}
+.d-grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.client {
+  display: flex;
+  flex-direction: row;
+}
+.loupe i,
+.client i {
+  display: none;
+}
+.login-logo,
+.drop-logo {
+  max-height: 2.1vh;
+}
+.drop {
+  padding-right: 0.4rem;
+}
+.logo img {
+  width: auto;
+  max-height: 2.1vh;
+}
+.subscribe a {
+  color: var(--color-font-bg-dark);
+  padding: 0.33em 0.33em;
+  background-color: var(--color-brune);
+  border-radius: 5px;
+  border: solid var(--border-button) 1px;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: -0em;
+  font-family: var(--font-system);
+}
+.pages {
+  display: none;
+}
