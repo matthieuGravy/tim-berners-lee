@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>
+      Tim Berners-Lee | Biography, Education, Internet, Contributions & Facts |
+      Britannica
+    </title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
@@ -20,21 +23,31 @@
   </head>
   <body>
     <header>
-      <div id="app"></div>
-      <script type="module" src="/main.js"></script>
-      <nav aria-label="...">
+      <nav class="topbar">
         <figure class="logo">
-          <img src="" alt="britanica" />
+          <img
+            class="top-logo"
+            src="./assets/MendelNewThistleLogo.webp"
+            alt="britanica"
+          />
         </figure>
-        <button class="hamburger">
-          <img src="" alt="hamburger" />
-        </button>
-        <button class="loupe">
-          <a href="">
-            <img src="" alt="loupe" class="" />
-          </a>
-          <a href="">Search</a>
-        </button>
+        <a class="hamburger">
+          <img
+            class="top-logo"
+            src="./assets/baseline_menu_white_24dp.png"
+            alt="hamburger"
+          />
+        </a>
+        <a class="loupe" href="">
+          <img
+            src="./assets/baseline_search_white_24dp.png"
+            alt="loupe"
+            class="top-logo"
+          />
+          <i>Search</i>
+        </a>
+        <a href=""></a>
+
         <ul class="pages">
           <li>
             <span class="">Dictionary</span>
@@ -42,43 +55,50 @@
           <li class="">
             <a class="" href="#">Quizzies</a>
           </li>
-          <li class=""><a class="page-link" href="#">Money</a></li>
+          <li class=""><a class="" href="#">Money</a></li>
         </ul>
-        <button>
-          <a href="">subscribe</a>
-        </button>
         <ul class="login">
-          <a>login</a>
-          <figure><img src="liste V" alt="" /></figure>
+          <a
+            >login
+            <img
+              class="top-logo"
+              src="/assets/baseline_expand_more_white_24dp.png"
+              alt=""
+          /></a>
         </ul>
+        <a class="subscribe" href="">subscribe</a>
       </nav>
-      <nav>
+
+      <nav class="legend-liens">
         <ul>
           <li><a href="">Home</a></li>
+          <li><p>></p></li>
           <li><a href="">Science</a></li>
+          <li><p>></p></li>
           <li><a href="">Mathematics</a></li>
         </ul>
       </nav>
     </header>
+    <!--
+    <section>
+      <h2 class="rubrique">Sciences & Tech</h2>
+      <h1>Tim Berners-Lee</h1>
+      <h2>British scientist</h2>
+      <figure>
+        <blockquote>
+          <p>Also know as: Sir Tim Berners-Lee</p>
+        </blockquote>
+        <figcaption>
+          Written by <cite><a href="#">Michael Aaron Dennis</a></cite>
+          <br />
+          Fact-checked by
+          <a href="#">The editors of Encyclopedia Britannica</a>
+          <br />
+          Last Updated: <a href="#">Article History</a>
+        </figcaption>
+      </figure>
+    </section>
     <main>
-      <header>
-        <h2 class="rubrique"></h2>
-        <h1>Tim Berners-Lee</h1>
-        <h2>British scientist</h2>
-        <figure>
-          <blockquote>
-            <p>Also know as: Sir Tim Berners-Lee</p>
-          </blockquote>
-          <figcaption>
-            Written by <cite><a href="#">Michael Aaron Dennis</a></cite>
-            <br />
-            Fact-checked by
-            <a href="#">The editors of Encyclopedia Britannica</a>
-            <br />
-            Last Updated: <a href="#">Article History</a>
-          </figcaption>
-        </figure>
-      </header>
       <nav>
         <ul>
           <h3>
@@ -93,7 +113,8 @@
           <source src="horse.mp3" type="audio/mpeg" />
         </audio>
       </section>
-      <section>
+
+      <section class="card">
         <article>
           <figure>
             <img src="" alt="Tim Berners-Lee" />
@@ -106,16 +127,49 @@
           <ul>
             <li>
               <strong>Category:</strong>
-              <h2 class="rubrique"></h2>
+              <h2 class="rubrique">Sciences & Tech</h2>
             </li>
             <li><strong>In Full:</strong> Sir Tim Berners-lee</li>
             <li>
-              <strong>Born: </strong> June 8, 1955, <a href="">London</a>,
-              <a href="">England</a> (age 68)
+              <strong>Born: </strong> June 8, 1955, <a href="#">London</a>,
+              <a href="#">England</a> (age 68)
             </li>
+            <li>
+              <strong>Founder:</strong>
+              <a href="#">World Wide Web Coonsortium</a> <a href="#"></a>
+            </li>
+            <li><strong>Inventions:</strong></li>
+            <a href="#">World Wide Web </a>
+            <a classe="list" href="#">World Wide Web </a>
           </ul>
         </article>
       </section>
+      <section>
+        <article>
+          <p>
+            Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955,
+            London, England), British computer scientist, generally credited as
+            the inventor of the World Wide Web. In 2004 he was awarded a
+            knighthood by Queen Elizabeth II of the United Kingdom and the
+            inaugural Millennium Technology Prize (€1 million) by the Finnish
+            Technology Award Foundation.
+          </p>
+          <p>
+            Computing came naturally to Berners-Lee, as both of his parents
+            worked on the Ferranti Mark I, the first commercial computer. (See
+            computer: The first stored-program machines.) After graduating in
+            1976 from the University of Oxford, Berners-Lee designed computer
+            software for two years at Plessey Telecommunications Ltd., located
+            in Poole, Dorset, England. Following this, he had several positions
+            in the computer industry, including a stint from June to December
+            1980 as a software engineering consultant at CERN, the European
+            particle physics laboratory in Geneva.
+          </p>
+        </article>
+      </section>
     </main>
+    -->
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

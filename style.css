@@ -1,29 +1,78 @@
-nav {
-  background-color: whitesmoke;
+:root {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
   display: grid;
-  grid: "hamburger loupe logo login subscribe" 10vh / 1fr;
   max-width: 100%;
+}
+/*
+classes 
+++++++++*/
+.top-logo {
+  height: 2vh;
+}
+
+header {
+  background-color: orange;
+}
+.topbar {
+  background-color: #071c2e;
+  display: grid;
+  grid: "hamburger loupe logo login subscribe" auto / auto auto auto auto;
+  max-width: 100%;
+  max-height: 5vh;
 }
 .hamburger {
   grid-area: hamburger;
-  background-color: red;
 }
 .loupe {
   grid-area: loupe;
-  background-color: green;
 }
 .logo {
-  background-color: blue;
   grid-area: logo;
 }
 .login {
-  background-color: aliceblue;
   grid-area: login;
 }
 .pages {
   display: none;
 }
-body {
+.subscribe {
+  grid-area: subscribe;
+  background-color: #963100;
+}
+header + legend-liens {
+  padding: 0;
+  margin: 0;
+}
+.legend-liens ul {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  max-width: 35%;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: hotpink;
+  align-items: center;
+}
+.legend-liens ul li,
+p,
+a {
+  font-size: 0.9em;
+}
+
+main {
+  padding: 3%;
   display: grid;
-  max-width: 100%;
+  background-color: red;
+}
+main header figure {
+  margin-left: 0;
+  background-color: red;
+}
+
+main header figure blockquote {
+  background-color: blue;
+  margin-left: 0;
+  font-style: italic;
 }
