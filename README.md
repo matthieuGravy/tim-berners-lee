@@ -8,6 +8,8 @@ To take on this exciting challenge, I embarked on the task of recreating an exis
 
 ## The models that we were supposed to represent.
 
+<img src="./assets/timBernersLeeMockupDesktop.png" alt="desktop"> <img src="./assets/timBernersLeeMockupMobile1.png" alt="mobile1"> <img src="./assets/timBernersLeeMockupMobile2.png" alt="mobile2>
+
 <br>
 
 ## Run Locally
