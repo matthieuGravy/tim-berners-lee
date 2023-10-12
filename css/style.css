@@ -8,73 +8,16 @@
   --categorie: #fed7aa;
   --hint-1: #797979;
   --hint-2: #3d3d3d;
+  --color-blue: blue;
 }
 body {
   font-family: var(--font-pincipal);
   display: grid;
   max-width: 100%;
 }
+
 main {
   background-color: var(--color-font-bg-dark);
   padding: 1.5% 5%;
   display: grid;
-}
-main header {
-  display: flex;
-  flex-direction: column;
-  gap: 3vh;
-}
-.legend-liens {
-  font-family: var(--font-system);
-  padding: 0;
-  margin: 0;
-}
-.legend-liens ul {
-  margin: 0;
-  padding: 0;
-}
-.legend-liens ul li,
-p,
-a {
-  font-size: 0.8em;
-  display: inline;
-  text-decoration: none;
-  color: var(--hint-1);
-}
-.legend-liens a:hover {
-  color: var(--hint-2);
-  text-decoration: underline;
-}
-.rubrique {
-  background-color: var(--categorie);
-  border: 1px solid var(--categorie);
-  border-radius: 10px;
-  padding: 0rem 0.4rem;
-  color: black;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-h1 {
-  padding-top: 2%;
-  margin: 0;
-}
-h6 {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 500;
-  word-spacing: 0.1rem;
-}
-.author blockquote {
-  margin-left: 0;
-  font-style: italic;
-  color: var(--hint-1);
-  font-size: 0.8rem;
-}
-.liens-cite {
-  background-color: ;
-}
-main header figure {
-  margin-left: 0;
-  color: var();
 }
