@@ -6,6 +6,10 @@ To take on this exciting challenge, I embarked on the task of recreating an exis
 
 <br>
 
+## The models that we were supposed to represent.
+
+<br>
+
 ## Run Locally
 
 Clone the project
@@ -35,6 +39,8 @@ Start the server
 <br>
 
 ## Do I plan to continue the development of this project?
+
+No, I don't think so. I'd like to take a step back first and better understand what I can do to improve. I will certainly revisit this type of project to enhance my skills."
 
 <br />
 <br />
