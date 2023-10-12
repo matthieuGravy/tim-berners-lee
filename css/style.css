@@ -5,11 +5,11 @@
   --color-bg-top: #071c2e;
   --color-font-bg-dark: #ffffff;
   --border-button: #1f0a01;
-  --categorie: #ddd;
-  --border: #e0e0e0;
+  --categorie: #fed7aa;
+  --border: #ddd;
   --hint-1: #797979;
   --hint-2: #3d3d3d;
-  --color-blue: #60a5fa;
+  --color-blue: #14599d;
 }
 body {
   font-family: var(--font-pincipal);
@@ -22,20 +22,33 @@ main {
   padding: 1.5% 5%;
   display: grid;
 }
+.card {
+  border: solid 1px var(--border);
+  padding: 1rem 1.5rem;
+}
+.card-article-top {
+  border: solid 1px var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-article-top figcaption {
+  padding: 0.5rem;
+  font-family: var(--font-system);
+  font-size: 0.8em;
+}
+.card-figure-top img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin: auto;
+}
 
-.table-content {
-  border: 1px solid var(--border);
-}
-.table-content > h3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem 0;
+#see-all {
+  display: block;
+  margin: 2vh auto;
+  text-align: center;
   color: var(--color-blue);
-}
-.table-content img {
-  transform: rotate(180deg);
-  width: 24px;
-  height: 24px;
-  padding: 0;
+  font-family: var(--font-system);
+  font-weight: 700;
+  font-size: 2vh;
 }
