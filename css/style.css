@@ -5,10 +5,11 @@
   --color-bg-top: #071c2e;
   --color-font-bg-dark: #ffffff;
   --border-button: #1f0a01;
-  --categorie: #fed7aa;
+  --categorie: #ddd;
+  --border: #e0e0e0;
   --hint-1: #797979;
   --hint-2: #3d3d3d;
-  --color-blue: blue;
+  --color-blue: #60a5fa;
 }
 body {
   font-family: var(--font-pincipal);
@@ -20,4 +21,21 @@ main {
   background-color: var(--color-font-bg-dark);
   padding: 1.5% 5%;
   display: grid;
+}
+
+.table-content {
+  border: 1px solid var(--border);
+}
+.table-content > h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem 0;
+  color: var(--color-blue);
+}
+.table-content img {
+  transform: rotate(180deg);
+  width: 24px;
+  height: 24px;
+  padding: 0;
 }

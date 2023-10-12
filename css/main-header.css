@@ -58,6 +58,7 @@ a {
 .author h5 > a {
   text-decoration: underline dotted var(--color-blue);
   color: var(--color-blue);
+  letter-spacing: 0.3px;
 }
 .author blockquote {
   margin-left: 0;
