@@ -8,6 +8,11 @@ icones
 
 /* xs */
 /*nav topbar */
+#bar-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
 .topbar {
   background-color: var(--color-bg-top);
   display: grid;
@@ -17,6 +22,7 @@ icones
   justify-content: space-between;
   padding: 0 1rem;
   max-width: 100%;
+  z-index: 3;
 }
 .topbar:nth-child(1) {
   grid-area: top-left;
@@ -36,13 +42,18 @@ icones
   display: flex;
   flex-direction: row;
 }
-.loupe i,
-.client i {
-  display: none;
-}
 .login-logo,
 .drop-logo {
   max-height: 2.1vh;
+}
+.loupe i,
+.client i {
+}
+.pages {
+  display: flex;
+}
+.pages li {
+  padding: 0 1rem;
 }
 .drop {
   padding-right: 0.4rem;
@@ -62,6 +73,24 @@ icones
   letter-spacing: -0em;
   font-family: var(--font-system);
 }
-.pages {
-  display: none;
+
+@media screen and (max-width: 399px) {
+  .loupe i,
+  .client i,
+  .pages {
+    display: none;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  .loupe i,
+  .client i {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .loupe i,
+  .client i {
+    display: block;
+  }
 }

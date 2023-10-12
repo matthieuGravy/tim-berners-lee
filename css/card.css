@@ -1,0 +1,50 @@
+.card {
+  grid-area: card;
+  max-width: 280px;
+  border: solid 1px var(--border);
+  padding: 1rem 1.5rem;
+  margin: auto;
+}
+.card-article-top {
+  border: solid 1px var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-article-top figcaption {
+  padding: 0.5rem;
+  font-family: var(--font-system);
+  font-size: 0.8em;
+}
+.card-figure-top img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin: auto;
+}
+
+#see-all {
+  display: block;
+  margin: 2vh auto;
+  text-align: center;
+  color: var(--color-blue);
+  font-family: var(--font-system);
+  font-weight: 700;
+  font-size: 2vh;
+}
+
+.card hr {
+  color: var(--border);
+  border: none;
+  border: 1px solid;
+}
+
+.ref li {
+  padding: 0.5rem 0;
+  font-family: var(--font-system);
+  font-size: 0.8rem;
+  color: var(--hint-1);
+}
+.ref strong {
+  padding-right: 0.3rem;
+  color: var(--border-button);
+}

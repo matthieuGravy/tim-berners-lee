@@ -15,40 +15,46 @@ body {
   font-family: var(--font-pincipal);
   display: grid;
   max-width: 100%;
+  color: var(--border-button);
 }
-
 main {
   background-color: var(--color-font-bg-dark);
-  padding: 1.5% 5%;
+  margin-top: 3vh;
+  padding: 1.5%;
   display: grid;
+  border: 1px solid var(--categorie);
 }
-.card {
-  border: solid 1px var(--border);
-  padding: 1rem 1.5rem;
+.main-article {
+  padding: 3%;
+  grid-area: article;
 }
-.card-article-top {
-  border: solid 1px var(--border);
-  border-radius: 5px;
-  overflow: hidden;
+.main-article p {
+  color: var(--border-button);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
-.card-article-top figcaption {
-  padding: 0.5rem;
-  font-family: var(--font-system);
-  font-size: 0.8em;
+.content {
+  display: grid;
+  grid:
+    "card" 1fr
+    "article" 1fr /1fr;
 }
-.card-figure-top img {
-  max-width: 100%;
-  display: block;
-  margin: auto;
-  margin: auto;
+@media screen and (min-width: 300px) and (max-width: 967px) {
+  main {
+    max-width: 60%;
+  }
 }
-
-#see-all {
-  display: block;
-  margin: 2vh auto;
-  text-align: center;
-  color: var(--color-blue);
-  font-family: var(--font-system);
-  font-weight: 700;
-  font-size: 2vh;
+@media screen and (min-width: 968px) {
+  main {
+    max-width: 40%;
+  }
+  .content {
+    grid:
+      "article card" 1fr
+      /1fr 1fr;
+  }
+  main {
+    margin-left: 4%;
+    border: 1px solid var(--categorie);
+  }
 }

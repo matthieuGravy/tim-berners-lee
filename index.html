@@ -22,7 +22,7 @@
     />
   </head>
   <body>
-    <header>
+    <header id="bar-nav">
       <nav class="topbar">
         <ul class="d-grid-row">
           <li>
@@ -87,17 +87,17 @@
         </ul>
       </nav>
     </header>
+    <nav class="legend-liens">
+      <ul>
+        <li><a href="#" class="">Home</a></li>
+        <li><p>></p></li>
+        <li><a href="#" class="">Science</a></li>
+        <li><p>></p></li>
+        <li><a href="#" class="">Mathematics</a></li>
+      </ul>
+    </nav>
     <main>
       <header>
-        <nav class="legend-liens">
-          <ul>
-            <li><a href="#" class="">Home</a></li>
-            <li><p>></p></li>
-            <li><a href="#" class="">Science</a></li>
-            <li><p>></p></li>
-            <li><a href="#" class="">Mathematics</a></li>
-          </ul>
-        </nav>
         <article class="article-author">
           <a class="rubrique">Sciences & Tech</a>
           <h1>Tim Berners-Lee</h1>
@@ -126,7 +126,7 @@
           </figure>
         </article>
       </header>
-      <nav class="table-content">
+      <nav class="table-content" id="table-content">
         <h3>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -146,22 +146,23 @@
       <figure class="player">
         <img src="./assets/player.png" alt="Listen to article" />
       </figure>
-      <section class="card">
-        <article class="card-article-top">
-          <figure class="card-figure-top">
-            <img
-              src="./assets/British-scientist-Tim-Berners-Lee.webp"
-              alt="Tim Berners-Lee"
-            />
-          </figure>
-          <figcaption>Tim Berners-Lee</figcaption>
-        </article>
-        <a href="" id="see-all">See all media</a>
-        <article>
-          <ul>
+      <section class="content">
+        <section class="card">
+          <article class="card-article-top">
+            <figure class="card-figure-top">
+              <img
+                src="./assets/British-scientist-Tim-Berners-Lee.webp"
+                alt="Tim Berners-Lee"
+              />
+            </figure>
+            <figcaption>Tim Berners-Lee</figcaption>
+          </article>
+          <a href="" id="see-all">See all media</a>
+          <hr />
+          <ul class="ref">
             <li>
               <strong>Category:</strong>
-              <h2 class="rubrique">Sciences & Tech</h2>
+              <a class="rubrique">Sciences & Tech</a>
             </li>
             <li><strong>In Full:</strong> Sir Tim Berners-lee</li>
             <li>
@@ -172,14 +173,13 @@
               <strong>Founder:</strong>
               <a href="#">World Wide Web Coonsortium</a> <a href="#"></a>
             </li>
-            <li><strong>Inventions:</strong></li>
-            <a href="#">World Wide Web </a>
-            <a classe="list" href="#">World Wide Web </a>
+            <li>
+              <strong>Inventions:</strong> <a href="#">World Wide Web </a>
+              <a classe="list" href="#">World Wide Web </a>
+            </li>
           </ul>
-        </article>
-      </section>
-      <section>
-        <article>
+        </section>
+        <article class="main-article">
           <p>
             Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955,
             London, England), British computer scientist, generally credited as

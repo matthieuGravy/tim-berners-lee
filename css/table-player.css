@@ -1,3 +1,8 @@
+#table-content {
+  position: sticky;
+  top: 6vh;
+  left: 0;
+}
 .table-content {
   border: 1px solid var(--border);
   margin: 2vh 0;
