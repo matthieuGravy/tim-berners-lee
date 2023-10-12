@@ -23,6 +23,7 @@ main {
   padding: 1.5%;
   display: grid;
   border: 1px solid var(--categorie);
+  max-width: 100%;
 }
 .main-article {
   padding: 3%;
@@ -39,7 +40,7 @@ main {
     "card" 1fr
     "article" 1fr /1fr;
 }
-@media screen and (min-width: 300px) and (max-width: 967px) {
+@media screen and (min-width: 499px) and (max-width: 967px) {
   main {
     max-width: 60%;
   }
