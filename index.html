@@ -20,11 +20,11 @@
       integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
       crossorigin="anonymous"
     />
-    <script type="module" crossorigin src="./assets/index-6ab62ddf.js"></script>
-    <link rel="stylesheet" href="./assets/index-7682a87a.css">
+    <script type="module" crossorigin src="./assets/index-ec1a1541.js"></script>
+    <link rel="stylesheet" href="./assets/index-ab82795d.css">
   </head>
   <body>
-    <header>
+    <header id="bar-nav">
       <nav class="topbar">
         <ul class="d-grid-row">
           <li>
@@ -89,17 +89,17 @@
         </ul>
       </nav>
     </header>
+    <nav class="legend-liens">
+      <ul>
+        <li><a href="#" class="">Home</a></li>
+        <li><p>></p></li>
+        <li><a href="#" class="">Science</a></li>
+        <li><p>></p></li>
+        <li><a href="#" class="">Mathematics</a></li>
+      </ul>
+    </nav>
     <main>
       <header>
-        <nav class="legend-liens">
-          <ul>
-            <li><a href="#" class="">Home</a></li>
-            <li><p>></p></li>
-            <li><a href="#" class="">Science</a></li>
-            <li><p>></p></li>
-            <li><a href="#" class="">Mathematics</a></li>
-          </ul>
-        </nav>
         <article class="article-author">
           <a class="rubrique">Sciences & Tech</a>
           <h1>Tim Berners-Lee</h1>
@@ -128,34 +128,43 @@
           </figure>
         </article>
       </header>
-      <nav>
-        <ul>
-          <h3>
-            <figure><img src="" alt="menu Puce" /></figure>
-            Table fo Contents
-          </h3>
-        </ul>
+      <nav class="table-content" id="table-content">
+        <h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="currentColor"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M3 9h14V7H3v2zm0 4h14v-2H3v2zm0 4h14v-2H3v2zm16 0h2v-2h-2v2zm0-10v2h2V7h-2zm0 6h2v-2h-2v2z"
+            />
+          </svg>
+          Table of Contents
+        </h3>
       </nav>
-      <section>
-        <audio controls>
-          <source src="horse.ogg" type="audio/ogg" />
-          <source src="horse.mp3" type="audio/mpeg" />
-        </audio>
-      </section>
-      <section class="card">
-        <article>
-          <figure>
-            <img src="" alt="Tim Berners-Lee" />
-          </figure>
-          <figcaption>Tim Berners-Lee</figcaption>
-        </article>
-        <a href="">See all media</a>
-        <article>
+      <figure class="player">
+        <img src="./assets/player-da904fec.png" alt="Listen to article" />
+      </figure>
+      <section class="content">
+        <section class="card">
+          <article class="card-article-top">
+            <figure class="card-figure-top">
+              <img
+                src="./assets/British-scientist-Tim-Berners-Lee-f729e8ad.webp"
+                alt="Tim Berners-Lee"
+              />
+            </figure>
+            <figcaption>Tim Berners-Lee</figcaption>
+          </article>
+          <a href="" id="see-all">See all media</a>
           <hr />
-          <ul>
+          <ul class="ref">
             <li>
               <strong>Category:</strong>
-              <h2 class="rubrique">Sciences & Tech</h2>
+              <a class="rubrique">Sciences & Tech</a>
             </li>
             <li><strong>In Full:</strong> Sir Tim Berners-lee</li>
             <li>
@@ -166,14 +175,13 @@
               <strong>Founder:</strong>
               <a href="#">World Wide Web Coonsortium</a> <a href="#"></a>
             </li>
-            <li><strong>Inventions:</strong></li>
-            <a href="#">World Wide Web </a>
-            <a classe="list" href="#">World Wide Web </a>
+            <li>
+              <strong>Inventions:</strong> <a href="#">World Wide Web </a>
+              <a classe="list" href="#">World Wide Web </a>
+            </li>
           </ul>
-        </article>
-      </section>
-      <section>
-        <article>
+        </section>
+        <article class="main-article">
           <p>
             Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955,
             London, England), British computer scientist, generally credited as
